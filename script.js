@@ -279,6 +279,7 @@ function makeDraggable(e) {
 // DFS algorithm
 function dfs(adjList) {
 	visited = {};
+	parent = {};
 
 	startPos = {
 		x: parseFloat($("#graph")[0].width.baseVal.value / 2),
